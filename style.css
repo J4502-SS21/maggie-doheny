@@ -23,7 +23,6 @@ ul {
 
 li {
   width: 25%;
-  float: left;
   margin: 20px auto;
 }
 
@@ -79,4 +78,17 @@ section {
     float: left;
   }
 
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.item {
+  flex-grow: 1;
+  margin: auto;
 }
