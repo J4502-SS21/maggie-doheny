@@ -34,9 +34,9 @@ a {
   text-transform: uppercase;
 }
 
-nav a:hover, p a: hover{
+nav a: hover, p a: hover{
   color: white;
-  background: rbg(255, 80, 80);
+  background: rgb(255, 80, 80);
 }
 
 h1 {
