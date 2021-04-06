@@ -71,11 +71,25 @@ section {
   box-shadow: 1px 1px 15px rgb(255, 80, 80);
 }
 
+#menu_trigger {
+  display: none;
+}
+
 @media (max-width: 600px) {
 
   li {
     width: 100%;
-    float: left;
+  }
+
+  #menu_trigger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #menu_nav {
+    display: none;
   }
 
 }
