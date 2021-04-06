@@ -71,6 +71,19 @@ section {
   box-shadow: 1px 1px 15px rgb(255, 80, 80);
 }
 
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.item {
+  flex-grow: 1;
+  margin: auto;
+}
+
 #menu_trigger {
   display: none;
 }
@@ -92,17 +105,4 @@ section {
     display: none;
   }
 
-}
-
-.navbar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-between;
-}
-
-.item {
-  flex-grow: 1;
-  margin: auto;
 }
