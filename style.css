@@ -26,7 +26,15 @@ li {
   margin: 20px auto;
 }
 
-a {
+nav a {
+  color: rgb(255, 80, 80);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p a {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -35,8 +43,13 @@ a {
 }
 
 nav a:hover, p a:hover{
-  color: rgb(255, 80, 80);
-  background: rgb(0, 128, 128);
+  color: white;
+  background: rgb(255, 80, 80);
+}
+
+p a:hover{
+  color: rgb(0, 128, 128);
+  background: white;
 }
 
 h1 {
